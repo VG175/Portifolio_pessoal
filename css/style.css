@@ -1,0 +1,24 @@
+*{
+    margin: 0%;
+    padding: 0;
+}
+body{
+    font-family:arial,sans-serif;
+    background-color: #f4f4f4;
+}
+
+header{
+    background-color: rgb(111, 119, 119);
+    text-align: center;
+    padding: 1em;
+
+}
+.img-perfil{
+    width:10%;
+    border-radius:50%;
+}
+footer{
+    background-color:  rgb(111, 119, 119);
+    text-align: center;
+    padding: 1em;
+}
