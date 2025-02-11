@@ -22,3 +22,26 @@ footer{
     text-align: center;
     padding: 1em;
 }
+.conteudo{
+    background-color: white !important;
+    padding: 1em !important;
+    margin-top: 1em !important;
+    border-radius: 30px !important;
+    width: 100%;
+}
+a{
+    text-decoration: none !important;
+    color: black;
+}
+.principal{
+    margin-left: 25% !important;
+    margin-right: 25% !important;
+    margin-top: 1% !important;
+    margin-bottom: 15% !important;
+}
+.img-icone{
+    width:150% !important; /*2:14*/
+}
+.txt-icone{
+    font-size: 200% !important;
+}
