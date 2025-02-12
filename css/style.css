@@ -17,11 +17,13 @@ header{
     width:10%;
     border-radius:50%;
 }
+/*cor que a foto fica dentro*/
 footer{
     background-color:  rgb(111, 119, 119);
     text-align: center;
     padding: 1em;
 }
+/*Settings css here*/
 .conteudo{
     background-color: white !important;
     padding: 2em !important;
@@ -34,6 +36,7 @@ a{
     color: black; /*Cor do link*/
 }
 .principal{
+    text-align: center !important;
     margin-left: 25% !important;
     margin-right: 25% !important;
     margin-top: 1% !important;
@@ -44,4 +47,42 @@ a{
 }
 .txt-icone{
     font-size: 200% !important;
+}
+/*Configuração css da parte do whatsapp*/
+.conteudo2{
+    background-color:white !important;
+    padding: 2em !important;
+    margin-top: 1em !important;
+    border-radius: 30px !important;
+    width: 100%;
+}
+
+@media (win-width:200px) and (max-width:768px){
+    .img-icone{
+        width: 250% !important;
+    }
+
+    .txt-icone{
+        font-size: 220% !important;
+    }
+
+    .conteudo{
+        background-color: white !important;
+        padding: 1em !important;
+        margin-top: 2em !important;
+        border-radius: 10px !important;
+        width: 130%;
+    }
+    .principal{
+        text-align: center !important;
+        margin-left: 10% !important;
+        margin-right: 25% !important;
+        margin-top: 1% !important;
+        margin-bottom: 50% !important;
+    }
+    .img-perfil{
+        width: 30% !important;
+        border-radius: 50% !important;
+    }
+
 }
