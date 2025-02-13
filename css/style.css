@@ -31,6 +31,10 @@ footer{
     border-radius: 30px !important;
     width: 100%; /*Largura*/
 }
+/*Parte que vai movimentar dentro dos man > div*/
+.conteudo:hover{
+        background-color: aqua !important;
+}
 a{
     text-decoration: none !important; /*Azul do nome do link*/
     color: black; /*Cor do link*/
@@ -43,7 +47,7 @@ a{
     margin-bottom: 15% !important;
 }
 .img-icone{
-    width: 100px !important; /*2:14*/
+    width: 100px !important; 
 }
 .txt-icone{
     font-size: 200% !important;
@@ -56,12 +60,16 @@ a{
     border-radius: 30px !important;
     width: 100%;
 }
+.conteudo2:hover{
+    background-color: aqua !important;
+}
 .whatsapp{
     width: 180px !important;
 }
 .txt-icone2{
     font-size: 200% !important;
 }
+/*Likedin*/
 .conteudo3{
     background-color:white !important;
     padding: 2em !important;
@@ -69,18 +77,25 @@ a{
     border-radius: 30px !important;
     width: 100%;
 }
+.conteudo3:hover{
+    background-color: aqua !important;
+}
 .likedin{
     width: 210px !important;
 }
 .txt-icone3{
     font-size: 200% !important;
 }
+/*Git-Hub*/
 .conteudo4{
     background-color:white !important;
     padding: 2em !important;
     margin-top: 1em !important;
     border-radius: 30px !important;
     width: 100%;
+}
+.conteudo4:hover{
+    background-color: aqua !important;
 }
 .git-hub{
     width: 150px !important;
@@ -92,18 +107,17 @@ a{
     .img-icone{
         width: 250% !important;
     }
-
     .txt-icone{
         font-size: 220% !important;
     }
-
     .conteudo{
         background-color: white !important;
         padding: 1em !important;
         margin-top: 2em !important;
         border-radius: 10px !important;
-        width: 130%;
+        width: 130% !important;
     }
+    /*Configuração global*/
     .principal{
         text-align: center !important;
         margin-left: 10% !important;
@@ -114,6 +128,48 @@ a{
     .img-perfil{
         width: 30% !important;
         border-radius: 50% !important;
+    }
+    /*Configurando a parte do whatsapp*/
+    .whatsapp{
+        width: 180% !important;
+    }
+    .txt-icone2{
+        font-size: 220%!important;
+    }
+    .conteudo2{
+        background-color: white !important;
+        padding: 1em !important;
+        margin-top: 2em !important;
+        border-radius: 10px !important;
+        width: 130%;
+    }
+    /*configuração da parte likedin*/
+    .likedin{
+        width: 180% !important;
+    }
+    .txt-icone3{
+        font-size: 220% !important;
+    }
+    .conteudo3{
+        background-color: white !important;
+        padding: 1em !important;
+        margin-top: 2em !important;
+        border-radius: 10px !important;
+        width: 130% !important;
+    }
+    /*Configuração do git-hub*/
+    .git-hub{
+        width: 180% !important;
+    }
+    .txt-icone4{
+        font-size: 220% !important;
+    }
+    .conteudo4{
+        background-color: white !important;
+        padding: 1em !important;
+        margin-top: 2em !important;
+        border-radius: 10px !important;
+        width: 130%;
     }
 
 }
