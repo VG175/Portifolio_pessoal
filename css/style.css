@@ -14,7 +14,7 @@ header{
 
 }
 .img-perfil{
-    width:10%;
+    width:20%;
     border-radius:50%;
 }
 /*cor que a foto fica dentro*/
@@ -26,7 +26,7 @@ footer{
 /*Settings css here*/
 .conteudo{
     background-color: white !important;
-    padding: 2em !important;
+    padding: 3em !important;
     margin-top: 1em !important;
     border-radius: 30px !important;
     width: 100%; /*Largura*/
@@ -50,12 +50,12 @@ a{
     width: 100px !important; 
 }
 .txt-icone{
-    font-size: 200% !important;
+    font-size: 215% !important;
 }
 /*Configuração css da parte do whatsapp*/
 .conteudo2{
     background-color:white !important;
-    padding: 2em !important;
+    padding: 0em !important;
     margin-top: 1em !important;
     border-radius: 30px !important;
     width: 100%;
@@ -72,7 +72,7 @@ a{
 /*Likedin*/
 .conteudo3{
     background-color:white !important;
-    padding: 2em !important;
+    padding: 1em !important;
     margin-top: 1em !important;
     border-radius: 30px !important;
     width: 100%;
@@ -81,10 +81,10 @@ a{
     background-color: aqua !important;
 }
 .likedin{
-    width: 210px !important;
+    width: 200px !important;
 }
 .txt-icone3{
-    font-size: 200% !important;
+    font-size: 215% !important;
 }
 /*Git-Hub*/
 .conteudo4{
@@ -103,7 +103,7 @@ a{
 .txt-icone4{
     font-size: 200% !important;
 }
-@media (win-width:200px) and (max-width:768px){
+@media (min-width:200px) and (max-width:768px){
     .img-icone{
         width: 250% !important;
     }
@@ -131,7 +131,7 @@ a{
     }
     /*Configurando a parte do whatsapp*/
     .whatsapp{
-        width: 180% !important;
+        width: 340% !important;
     }
     .txt-icone2{
         font-size: 220%!important;
@@ -145,7 +145,7 @@ a{
     }
     /*configuração da parte likedin*/
     .likedin{
-        width: 180% !important;
+        width: 340% !important;
     }
     .txt-icone3{
         font-size: 220% !important;
@@ -159,7 +159,7 @@ a{
     }
     /*Configuração do git-hub*/
     .git-hub{
-        width: 180% !important;
+        width: 270% !important;
     }
     .txt-icone4{
         font-size: 220% !important;
